@@ -239,3 +239,23 @@
 .foot-logo>img{
   margin-left: 20px;
 }
+
+
+.btn-hv:hover {
+  color: #006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+}
+.nav-hv:hover{
+  color: white;
+    background-color: #006A50;
+    border: none;
+}
+.blue-hv:hover{
+  background-color:white;
+  color:  #5490F5;
+}
+.yellow-hv:hover{
+  background-color:white;
+  color:#FFC239;
+}
