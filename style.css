@@ -3,3 +3,239 @@
     font-weight: 400;
     font-style: normal;
   }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 150px;
+  }
+  .nav-btn{
+    padding: 15px 30px;
+    color: #006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+
+  }
+  .banner{
+    margin: 5px 100px;
+    padding: 80px 100px;
+    background-color: #C6E4D6; 
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-text{
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
+  .banner-btn,.s-btn,.sub-btn{
+    padding: 17px 34px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    font-weight: 700;
+  }
+  .banner-photo img{
+    height:400px ;
+    width: 470px;
+  }
+  main{
+    width: 80%;
+    margin:80px 125px;
+  }
+  .p-box{
+    padding: 24px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    width: 300px;
+    height: 240px;
+    margin-left: 24px;
+  }
+  .p-box img{
+    margin-bottom: 24px;
+  }
+  .pillar{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .vision{
+    margin-top: 80px;
+  }
+  .vision-p{
+    margin: 24px 0 32px 0;
+  }
+  .future{
+    display:flex ;
+    margin-right: 25px;
+    align-content: center;
+  }
+  .f-box{
+    padding: 32px;
+    border-radius: 16px;
+    margin-left: 24px;
+  }
+.f-box-tittle{
+    margin: 24px 0 12px 0;
+}
+.future-btn{
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600
+}
+.blue{
+    background-color: #72a1f1af;
+}
+.green{
+    background-color: #C6E4D6;
+}
+.yellow{
+    background-color: #F7EBCF;
+}
+.btn-blue{
+    background-color: #5490F5;
+}
+.btn-green{
+    background-color: #09A15C;
+}
+.btn-yellow{
+    background-color: #FFC239;
+}
+.quote{
+    margin-top: 32px;
+    padding: 48px 24px;
+    background-color: whitesmoke;
+    background-image: url('./assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    border-radius: 16px;
+}
+.president{
+    margin-top: 12px;
+}
+.resent-news{
+  margin-top: 80px;
+}
+.recent-text{
+  margin: 24px 0 32px 0;
+}
+.box-r-1{
+  background-color: whitesmoke;
+  padding: 48px;
+  border-radius: 20px;
+  display: flex;
+}
+.setelite img{
+  border-radius: 23px;
+}
+.setelite-box{
+  padding-left: 30px;
+}
+.selelite-box img{
+  margin: 12px 0 12px 0;
+}
+.date{
+  font-weight: 100;
+  opacity: 0.5;
+  margin-bottom: 12px;
+}
+.span{
+  margin-left: 12px;
+}
+.pad{
+  margin: 24px 0 24px 0 ;
+}
+.donate{
+  text-align: center;
+  margin-top: 80px;
+}
+.donate-text{
+  margin: 24px 0 32px 0 ;
+}
+.amount{
+  display: flex;
+  justify-content: space-around;
+}
+.donation{
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid gray;
+  font-size: 40px;
+  font-weight: bold;
+}
+.d-green{
+  background-color: #C6E4D6;
+}
+.d-input{
+  padding: 10px 40px;
+  margin: 32px;
+  width: 1020px;
+  height: 64px;
+  text-align: center;
+}
+.newsletter{
+  margin: 80px;
+  padding: 80px 100px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  text-align: center;
+}
+.newsletter-tittle{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.newsletter-description{
+  margin: 16px 0 24px 0;
+}
+.subscribe{
+  display: flex;
+}
+.subscribe-input{
+  width: 70%;
+  height: 45;
+  padding: 18px 40px;
+  margin:24px 0 24px 0;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  opacity: 0.8;
+}
+.attached{
+  height: 10%;
+  width: 156px;
+  padding: 17px 34px;
+  border-radius:0 8px 8px 0 ;
+}
+.spam{
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer{
+  margin-top: 80px;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+.foot-tittle{
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.foot-logo{
+  margin-top: 32px;
+  display: flex;
+  justify-content:center;
+}
+.foot-logo>img{
+  margin-left: 20px;
+}
